@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Structure from "@/components/Structure";
 import React from "react";
 import Image from "next/image";
-import ProfileImage from "../../../public/images/profile/profile.png";
+import ProfileImage from "../../../public/images/profile/profilephoto.jpg";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
