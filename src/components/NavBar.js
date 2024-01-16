@@ -60,12 +60,12 @@ const NavBar = () => {
               <CustomLink href="/articles" title="Articles" className='ml-4'/>
           </nav>
           <nav className='flex items-center justify-center flex-wrap'>
-              <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mr-3'><TwitterIcon/></motion.a>
-              <motion.a href="https://www.linkedin.com/in/abhik-ganguly-2338ab286" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3'><LinkedInIcon/></motion.a>
-              <motion.a href="https://github.com/Abhik-Develops" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3'><GithubIcon/></motion.a>
-              <motion.a href="https://leetcode.com/U_N_K_N_O_W_N_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-dark dark:fill-light rounded-full'><LeetcodeIcon/></motion.a>
-              <motion.a href="https://www.codechef.com/users/the_unknown_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-dark dark:fill-light'><CodechefIcon/></motion.a>
-              <button onClick={()=>{setMode(mode === "light" ? "dark" : "light")}} className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
+              <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mr-3' aria-label='Twitter'><TwitterIcon/></motion.a>
+              <motion.a href="https://www.linkedin.com/in/abhik-ganguly-2338ab286" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3' aria-label='LinkedIn'><LinkedInIcon/></motion.a>
+              <motion.a href="https://github.com/Abhik-Develops" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3' aria-label='Github'><GithubIcon/></motion.a>
+              <motion.a href="https://leetcode.com/U_N_K_N_O_W_N_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-dark dark:fill-light rounded-full' aria-label='Leetcode'><LeetcodeIcon/></motion.a>
+              <motion.a href="https://www.codechef.com/users/the_unknown_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-dark dark:fill-light' aria-label='Codechef'><CodechefIcon/></motion.a>
+              <button onClick={()=>{setMode(mode === "light" ? "dark" : "light")}} className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`} aria-label={`${"mode"==="light" ? "light" : "dark"} mode`}>
                 {
                   mode === "dark" ? <SunIcon className={"fill-dark"}/> : <MoonIcon className={"fill-dark"}/>
                 }
@@ -82,12 +82,12 @@ const NavBar = () => {
               <CustomMobileLink href="/articles" title="Articles" className='' toggle={handleClick}/>
           </nav>
           <nav className='flex items-center justify-center flex-wrap mt-2'>
-              <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mr-3 sm:mr-1'><TwitterIcon/></motion.a>
-              <motion.a href="https://www.linkedin.com/in/abhik-ganguly-2338ab286" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1'><LinkedInIcon/></motion.a>
-              <motion.a href="https://github.com/Abhik-Develops" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'><GithubIcon/></motion.a>
-              <motion.a href="https://leetcode.com/U_N_K_N_O_W_N_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-light dark:fill-dark rounded-full sm:mx-1'><LeetcodeIcon/></motion.a>
-              <motion.a href="https://www.codechef.com/users/the_unknown_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1 fill-light dark:fill-dark'><CodechefIcon/></motion.a>
-              <button onClick={()=>{setMode(mode === "light" ? "dark" : "light")}} className={`ml-3 sm:ml-1 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
+              <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mr-3 sm:mr-1' aria-label='Twitter'><TwitterIcon/></motion.a>
+              <motion.a href="https://www.linkedin.com/in/abhik-ganguly-2338ab286" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1' aria-label='LinkedIn'><LinkedInIcon/></motion.a>
+              <motion.a href="https://github.com/Abhik-Develops" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1' aria-label='Github'><GithubIcon/></motion.a>
+              <motion.a href="https://leetcode.com/U_N_K_N_O_W_N_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-light dark:fill-dark rounded-full sm:mx-1' aria-label='Leetcode'><LeetcodeIcon/></motion.a>
+              <motion.a href="https://www.codechef.com/users/the_unknown_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1 fill-light dark:fill-dark' aria-label='Codechef'><CodechefIcon/></motion.a>
+              <button onClick={()=>{setMode(mode === "light" ? "dark" : "light")}} className={`ml-3 sm:ml-1 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`} aria-label={`${"mode"==="light" ? "light" : "dark"} mode`}>
                 {
                   mode === "dark" ? <SunIcon className={"fill-dark"}/> : <MoonIcon className={"fill-dark"}/>
                 }
