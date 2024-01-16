@@ -32,8 +32,8 @@ export default function RootLayout({ children }) {
           <NavBar/>
           {children}
           <Footer/>
-          <SpeedInsights/>
         </main>
+        <SpeedInsights/>
       </body>
     </html>
   )
