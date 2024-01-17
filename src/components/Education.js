@@ -53,7 +53,7 @@ const Education = () => {
                 />
                 <Details
                 type="Secondary (10th)"
-                time="2013-2018"
+                time="2012-2018"
                 place="Singur Mahamaya High School"
                 info="Relevant courses included Mathematics, Physical Science, Life Science, History, Geography, English and Bengali"
                 data="89.6%"

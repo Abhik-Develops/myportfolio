@@ -61,7 +61,7 @@ const NavBar = () => {
           </nav>
           <nav className='flex items-center justify-center flex-wrap'>
               <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mr-3' aria-label='Twitter'><TwitterIcon/></motion.a>
-              <motion.a href="https://www.linkedin.com/in/abhik-ganguly-2338ab286" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3' aria-label='LinkedIn'><LinkedInIcon/></motion.a>
+              <motion.a href="https://www.linkedin.com/in/abhik-ganguly" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3' aria-label='LinkedIn'><LinkedInIcon/></motion.a>
               <motion.a href="https://github.com/Abhik-Develops" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3' aria-label='Github'><GithubIcon/></motion.a>
               <motion.a href="https://leetcode.com/U_N_K_N_O_W_N_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-dark dark:fill-light rounded-full' aria-label='Leetcode'><LeetcodeIcon/></motion.a>
               <motion.a href="https://www.codechef.com/users/the_unknown_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-dark dark:fill-light' aria-label='Codechef'><CodechefIcon/></motion.a>
@@ -83,7 +83,7 @@ const NavBar = () => {
           </nav>
           <nav className='flex items-center justify-center flex-wrap mt-2'>
               <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mr-3 sm:mr-1' aria-label='Twitter'><TwitterIcon/></motion.a>
-              <motion.a href="https://www.linkedin.com/in/abhik-ganguly-2338ab286" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1' aria-label='LinkedIn'><LinkedInIcon/></motion.a>
+              <motion.a href="https://www.linkedin.com/in/abhik-ganguly" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1' aria-label='LinkedIn'><LinkedInIcon/></motion.a>
               <motion.a href="https://github.com/Abhik-Develops" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1' aria-label='Github'><GithubIcon/></motion.a>
               <motion.a href="https://leetcode.com/U_N_K_N_O_W_N_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 fill-light dark:fill-dark rounded-full sm:mx-1' aria-label='Leetcode'><LeetcodeIcon/></motion.a>
               <motion.a href="https://www.codechef.com/users/the_unknown_0" target={"_blank"} whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-6 mx-3 sm:mx-1 fill-light dark:fill-dark' aria-label='Codechef'><CodechefIcon/></motion.a>
