@@ -23,7 +23,7 @@ const Project = ({title, type, img, link, github}) => {
                     <Link href={link} target='_blank' className='text-lg font-semibold underline md:text-base'>
                         Visit
                     </Link>
-                    <Link href={github} target='_blank' className='w-8 md:w-6'>
+                    <Link href={github} target='_blank' className='w-8 md:w-6' aria-label='Github'>
                         {" "}<GithubIcon/>{" "}
                     </Link>
                 </div>
