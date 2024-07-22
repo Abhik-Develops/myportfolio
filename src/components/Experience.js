@@ -48,15 +48,15 @@ const Experience = () => {
         Experience
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
-        {/* <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[19px]'/> */}
+        <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[19px]'/>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          {/* <Details 
-                    position="Currently No Experience" company="NA"
-                    companyLink="NA"
-                    time="NA"
-                    address="NA"
-                    work="NA"
-                /> */}
+          <Details 
+            position="AI Engineering Intern" company="Learners Galaxy"
+            companyLink="https://www.linkedin.com/company/learnersgalaxy"
+            time="June 2024 - July 2024"
+            address="Remote"
+            work="During my internship, I contributed to developing an AI-driven EdTech platform using Autogen, FastAPI, and Next.js. The platform allows students to ask questions from any subject or upload PDFs and inquire about their content. My responsibilities included developing RESTful APIs with FastAPI for handling student queries and PDF uploads, creating a responsive interface with Next.js, and integrating AI features using Autogen. This experience improved my skills in backend and frontend development, AI integration, and working effectively with a remote team."
+          />
         </ul>
       </div>
     </div>

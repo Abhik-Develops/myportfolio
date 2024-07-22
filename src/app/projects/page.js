@@ -1,6 +1,11 @@
 import AnimatedText from '@/components/AnimatedText'
 import Structure from '@/components/Structure'
 import React from 'react'
+import QuickChatImage from '../../../public/images/projects/quick-chat.png'
+import QuizMasterImage from '../../../public/images/projects/quiz-master.png'
+import PicGenAIImage from '../../../public/images/projects/picgen-ai.png'
+import WebEditorImage from '../../../public/images/projects/web-editor.png'
+import ThiefDetectionImage from '../../../public/images/projects/thief-detector.png'
 import Project1 from '../../../public/images/projects/portfolio.png'
 import Project2 from '../../../public/images/projects/2048_game.png'
 import Project3 from '../../../public/images/projects/sudoku.png'
@@ -20,6 +25,54 @@ const page = () => {
             <Structure className='pt-16'>
                 <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+                    <div className='col-span-12'>
+                        <FeaturedProject
+                            title="Quick Chat"
+                            summary="Quick Chat is a dynamic web-based messaging application crafted utilizing the MERN stack, complemented by Socket.IO for real-time communication. The stack comprises MongoDB for database management, Express.js for server-side application logic, React.js for constructing interactive user interfaces, and Node.js for backend execution."
+                            type="Full Stack Project"
+                            link="https://quick-chat-kqjq.onrender.com"
+                            img={QuickChatImage}
+                            github="https://github.com/Abhik-Develops/quick-chat"
+                        />
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project
+                            title="Web Editor"
+                            type="Frontend Project"
+                            link="https://abhik-develops.github.io/web-editor"
+                            img={WebEditorImage}
+                            github="https://github.com/Abhik-Develops/web-editor"
+                        />
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project
+                            title="Thief Detector"
+                            type="Frontend Project"
+                            link="https://thief-detector.vercel.app/"
+                            img={ThiefDetectionImage}
+                            github="https://github.com/Abhik-Develops/thief-detector"
+                        />
+                    </div>
+                    <div className='col-span-12'>
+                        <FeaturedProject
+                            title="Quiz Master"
+                            summary="An interactive quiz application for creating, managing, and participating in quizzes."
+                            type="Full Stack Project"
+                            link="https://quiz-master-8vww.onrender.com/"
+                            img={QuizMasterImage}
+                            github="https://github.com/Abhik-Develops/quiz-master"
+                        />
+                    </div>
+                    <div className='col-span-12'>
+                        <FeaturedProject
+                            title="PicGen AI"
+                            summary="PicGen AI is a web application built using the MERN stack that allows users to generate images from text inputs. It leverages the API of the Hugging Face Stable Diffusion AI Model to create captivating visual content based on user-provided prompts."
+                            type="Full Stack Project"
+                            link="https://picgen-ai.onrender.com"
+                            img={PicGenAIImage}
+                            github="https://github.com/Abhik-Develops/picgen-ai"
+                        />
+                    </div>
                     <div className='col-span-12'>
                         <FeaturedProject
                             title="Portfolio Website"

@@ -41,7 +41,7 @@ const Education = () => {
                 type="Bachelor Of Engineering In Information Technology"
                 time="2021-2025"
                 place="Jadavpur University"
-                info="Relevant courses included Data Structures and Algorithms, Operating System, Object Oriented Programming, Object Oriented System, Data Base Management System, Artificial Intelligence etc."
+                info="Relevant courses included Data Structures and Algorithms, Operating System, Object Oriented Programming, Graph Theory, Data Base Management System, Artificial Intelligence etc."
                 data="8.25"
                 />
                 <Details

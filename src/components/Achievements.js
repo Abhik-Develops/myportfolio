@@ -19,7 +19,7 @@ const Achievements = () => {
         <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>Achievements</h2>
         <ul>
             <Achievement
-                title="Solved 1000+ questions on Leetcode (highest rating of 1985, max daily streak of 100 days)"
+                title="Solved 1000+ questions on Leetcode (highest rating of 2107, max daily streak of 100 days)"
                 date="August, 2023"
             />
             <Achievement
